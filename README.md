@@ -8,3 +8,5 @@ The supported features are:
 - OpenITG theme switcher
 - Game reset
 - Panic -> Puts the volume to a low value
+
+As a curious point, I had to develop so much code of this app using the mobile phone I had on that time, a Motorola Moto G XT1032
