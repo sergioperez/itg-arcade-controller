@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="<%=url('/theme.css') %>" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<a class="button" href="<%=url('/themes')%>">Cambiar tema</a>
+		ITG2 Volume <%= @vol %>
+		<form action="/setvolume" method="GET">
+			<input type="range" name="volume" min="0" max="100" value='<%=@vol%>'>
+			<input type="submit">
+		</form>
+	<br><br><br>
+		<a class="button" href="../freeplay">Freeplay</a>
+		<a class="button" href="../reset">Reset</a>
+		<br><br><br><br>
+		<a class="button" href="../panic">PANIC!!!!!!!!!!</a>
+	</body>
+</html>

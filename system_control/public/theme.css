@@ -1,0 +1,15 @@
+a.button {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+
+	text-decoration: none;
+	color: initial;
+
+	width:100%;
+	display: block;
+	margin-bottom: 10%;
+	height: 40%;
+	margin-left:3%;
+	margin-right: 3%;
+}
